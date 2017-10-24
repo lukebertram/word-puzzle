@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="js/jquery-3.2.1.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link href="css/custom.css" rel="stylesheet" type="text/css">
     <title>Word Puzzle</title>
   </head>
   <body>
+    <div class="container">
+      <form id="wordProblem">
+        <label for="sentence">A sentence to be puzzle-ified:</label>
+          <input type="text" class="form-control" id="sentence" value="">
+        <button type="submit" class="btn btn-primary">Start that puzzle!</button>
+      </form>
+      <div id="puzzle">
 
+      </div>
+    </div>
   </body>
 </html>
